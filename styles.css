@@ -89,7 +89,7 @@ li.header-item {
     border-radius: 10px;
     border: none;
     padding: 8px 32px;
-    
+    font-weight: 700;
 }
 
 .hero-img {
@@ -193,4 +193,54 @@ align-items: center;
     width: 100%;
     text-align: right;
     font-size: 18px;
+}
+
+.cta-section {
+    padding: 8% 12%;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    padding: 2rem 6rem;
+    border-radius: 10px;
+}
+
+.cta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cta-copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-copy h3, p {
+    margin: 0;
+    padding: 4px;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    color: #f9FAF8;
+    border: 2px solid #f9FAF8;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 8px 32px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copy {
+color: #f9FAF8;
+padding: 2% 0;
 }
